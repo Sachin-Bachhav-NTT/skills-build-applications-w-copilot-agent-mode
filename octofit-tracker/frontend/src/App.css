@@ -1,0 +1,139 @@
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ff 100%);
+  color: #22223b;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(51, 51, 153, 0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffd60a !important;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #4361ee 0%, #4cc9f0 100%) !important;
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(51, 51, 153, 0.04);
+}
+.table thead {
+  background: #b5179e;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f1f3f8;
+}
+
+.btn, .btn-primary, .btn-success, .btn-info, .btn-secondary, .btn-danger {
+  border-radius: 24px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #4361ee 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #4361ee 0%, #3a86ff 100%);
+}
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #43aa8b 100%);
+  border: none;
+}
+.btn-success:hover {
+  background: linear-gradient(90deg, #43aa8b 0%, #06d6a0 100%);
+}
+.btn-info {
+  background: linear-gradient(90deg, #4cc9f0 0%, #4895ef 100%);
+  border: none;
+}
+.btn-info:hover {
+  background: linear-gradient(90deg, #4895ef 0%, #4cc9f0 100%);
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #adb5bd 0%, #6c757d 100%);
+  border: none;
+}
+.btn-secondary:hover {
+  background: linear-gradient(90deg, #6c757d 0%, #adb5bd 100%);
+}
+.btn-danger {
+  background: linear-gradient(90deg, #ef233c 0%, #d90429 100%);
+  border: none;
+}
+.btn-danger:hover {
+  background: linear-gradient(90deg, #d90429 0%, #ef233c 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a0ca3;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+a, .App-link {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #b5179e;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
